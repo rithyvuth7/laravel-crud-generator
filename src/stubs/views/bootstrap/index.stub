@@ -10,13 +10,13 @@
             <div class="col-sm-12">
                 <div class="card">
                     <div class="card-header">
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div class="w-100" style="display: flex; justify-content: space-between; align-items: center;">
 
-                            <span id="card_title">
+                            <div id="card_title float-start">
                                 {{ __('{{modelTitlePlural}}') }}
-                            </span>
+                            </div>
 
-                             <div class="float-right">
+                             <div class="float-end">
                                 <a href="{{ route('{{modelRoute}}.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Create New') }}
                                 </a>
@@ -31,17 +31,17 @@
 
                     <div class="card-body bg-white">
                         <div class="table-responsive">
-                            <table class="table table-striped table-hover">
+                            <table class="table table-hover table-secondary table-row-dashed table-row-gray-300">
                                 <thead class="thead">
-                                    <tr>
-                                        <th>No</th>
+                                    <tr class="text-center">
+                                        <th>{{ __('No') }}</th>
                                         {{tableHeader}}
-                                        <th></th>
+                                        <th>{{ __('Action') }}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach (${{modelNamePluralLowerCase}} as ${{modelNameLowerCase}})
-                                        <tr>
+                                        <tr class="text-center">
                                             <td>{{ ++$i }}</td>
                                             {{tableBody}}
                                             <td>
