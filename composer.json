@@ -1,11 +1,11 @@
 {
-    "name": "ibex/crud-generator",
+    "name": "rithyvuth7/laravel-crud-generator",
     "description": "Laravel CRUD Generator",
     "license": "MIT",
     "authors": [
         {
-            "name": "M Awais",
-            "email": "asargodha@gmail.com"
+            "name": "Tha Rithyvuth",
+            "email": "tharithyvuth7@gmail.com"
         }
     ],
     "keywords": ["laravel", "crud", "crud generator", "laravel crud generator", "laravel package", "bootstrap css", "tailwind css", "alpine js"],
