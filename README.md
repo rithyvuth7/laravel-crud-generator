@@ -23,7 +23,7 @@ This is the best crud generator for a blank Laravel project installation too. Th
 ## Installation
 1 - Install
 ```
-composer require ibex/crud-generator --dev
+composer require rithyvuth7/laravel-crud-generator --dev
 ```
 2- Publish the default package's config (optional)
 ```
